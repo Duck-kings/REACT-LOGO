@@ -1,0 +1,46 @@
+:root{
+    --bg:#22abc9;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #0b0d1c;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+.dot{
+    height: 70px;
+    width: 70px;
+    background: var(--bg);
+    border-radius: 50%;
+    position: absolute;
+    top: 42%;
+    left: 41%;
+}
+.circle{
+    width: 120px;
+    height: 300px;
+    border-radius: 70px/150px;
+    border: 6px solid var(--bg);
+    position: absolute;
+}
+.circle:nth-child(1){
+    transform: rotate(90deg);
+    top: 17.7%;
+    left: 35%;
+}
+.circle:nth-child(2){
+    transform: rotate(35deg);
+    top: 17.7%;
+    left: 35%;
+}
+.circle:nth-child(3){
+    transform: rotate(-35deg);
+    top: 17.7%;
+    left: 35%;
+}
